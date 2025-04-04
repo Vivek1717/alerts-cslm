@@ -1,0 +1,23 @@
+POST /
+Usez-agent: IcMaroadcaster/1.0
+X-correlationcontext: RkkKACgAAAACAAAAEAA3gaYA9q1[R54/ipEgP4aZACAQAJgsV05OLOZBiPqwQEdcE3M=
+Content-type: application/json; charset=utf-8
+Host: ssmwh6.ams.ops.eu.uu.net:9443
+Content-length: 5717
+Expect 100-continue
+Connection: Keep-Alive
+
+{
+   "schemaId": "azureMonitorCommonAlertSchema",
+   "data": {
+       "alertId": "/subscriptions/f714cc5a-ac61-4b12-b10f-2f2d80376b35/resourceGroups/test-alerts/providers/Microsoft.Compute/virtualMachines/test-vm",
+       "alertRule": "diskspace_20",
+       "severity": "Sev3",
+       "targetResourceType": "Microsoft.Compute/virtualMachines",
+       "targetResourceGroup": "test-alerts",
+       "monitorCondition": "Fired",
+       "description": "Disk space on test-vm is below 20%",
+       "originAlertId": "test-alert-001"
+   }
+}
+

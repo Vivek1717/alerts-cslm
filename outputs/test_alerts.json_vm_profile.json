@@ -1,0 +1,13 @@
+{
+    "SSM Service ID": "SSM-UKPO-1-1-1",
+    "SSM Customer Name": "Post Office",
+    "SSM Host Name": "test-vm.ssm-customer",
+    "IP Address": "10.0.0.4",
+    "Severity": 3,
+    "Alarm Text": "ALARM: High CPU Utilization 90%",
+    "VM Name": "test-vm",
+    "Private IP": "10.0.0.4",
+    "Public IP": "20.3.240.243",
+    "Subscription ID": "f714cc5a-ac61-4b12-b10f-2f2d80376b35",
+    "Azure Account Name": "Azure subscription 1"
+}
