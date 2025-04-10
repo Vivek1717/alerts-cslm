@@ -8,9 +8,9 @@ const { NetworkManagementClient } = require('@azure/arm-network');
 const { SubscriptionClient } = require('@azure/arm-subscriptions');
 
 const SCRIPT_DIR = __dirname;
-const INPUT_DIR = path.join(SCRIPT_DIR, 'inputs');
-const OUTPUT_DIR = path.join(SCRIPT_DIR, 'outputs');
-const ERROR_DIR = path.join(SCRIPT_DIR, 'error_processed');
+const INPUT_DIR = config.PATH.INPUT_DIR;
+const OUTPUT_DIR = config.PATH.PROCESSED_DIR;
+const ERROR_DIR = config.PATH.ERROR_DIR;
 
 async function getAzureAccountName(subscriptionId) {
     try {
